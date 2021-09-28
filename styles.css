@@ -1,6 +1,48 @@
 body {
-    display: flex;
+    height: 100vh;
+    color: white;
 }
-div {
+
+.titleSection {
+    background-color: #1f2937;
+    padding: 0 120px 120px 120px;
+}
+
+.titleBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listLinks {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.titleBarLogo {
+    font-size: 24px;
+    columns: #f9faf8;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.heroMain {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.heroSection {
+    display: flex;
+    margin-top: 80px;
+    
+    justify-content: space-between;
+}
+
+.heroText {
     display: flex;
 }
