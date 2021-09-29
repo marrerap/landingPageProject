@@ -1,11 +1,12 @@
 body {
     height: 100vh;
-    color: white;
+  
 }
 
 .titleSection {
     background-color: #1f2937;
     padding: 0 120px 120px 120px;
+    color: white;
 }
 
 .titleBar {
@@ -45,4 +46,33 @@ body {
 
 .heroText {
     display: flex;
+}
+
+.thumbnailSection {
+    display: flex;    
+    flex-direction: column;
+}
+
+.thumbnailTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnailImages {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+
+}
+
+.thumbnailBox { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 110px;
 }
