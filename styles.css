@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    margin: 0;
   
 }
 
@@ -39,7 +40,7 @@ body {
 
 .heroSection {
     display: flex;
-    margin-top: 80px;
+    margin-top: 60px;
     
     justify-content: space-between;
 }
@@ -51,6 +52,7 @@ body {
 .thumbnailSection {
     display: flex;    
     flex-direction: column;
+    margin: 40px 0;
 }
 
 .thumbnailTitle {
@@ -60,7 +62,8 @@ body {
 
 .thumbnailImages {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
     padding: 0 100px;
 
 }
@@ -75,4 +78,27 @@ body {
     border-radius: 5px;
     padding: 10px;
     max-width: 110px;
+}
+
+.commentSection {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #e5e7eb;
+
+}
+.quoteText {
+    display: flex;
+    justify-content: center;
+    padding: 0 95px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+.authorText {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 18px;
 }
